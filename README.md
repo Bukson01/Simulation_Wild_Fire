@@ -14,7 +14,7 @@ Python 3.11
 bext module (Install using pip install Bext)
 
 
-Acknowledgments
+# Acknowledgments
 Inspired by Nicky Case's Emoji Sim (http://ncase.me/simulating/model/)
 Developed as part of the "Big Book of Small Python Programming" by Al Sweigart
 Special thanks to the Bext module for console-based graphics support
