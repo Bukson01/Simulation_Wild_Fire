@@ -88,7 +88,7 @@ def handleFire(nextForest, x, y):
     """Handle fire behavior during simulation step."""
     for ix in range(-1, 2):
         for iy in range(-1, 2):
-            if forest.get((x + ix, y + iy)) == TREE:
+            if nextForest.get((x + ix, y + iy)) == TREE:
                 nextForest[(x + ix, y + iy)] = FIRE
     nextForest[(x, y)] = EMPTY
 
